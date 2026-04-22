@@ -1,4 +1,10 @@
+
+{% load static %}
+
 <h1>Lista pytań</h1>
+
+<link rel="stylesheet" href="{% static 'polls/style.css' %}">
+
 
 <ul>
 {% for question in latest_question_list %}
